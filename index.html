@@ -3,51 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute to Attack on Titan</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Enter Page Form</title>
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-    <header class="hero-section">
-        <div class="hero-text">
-            <h1>Attack on Titan</h1>
-            <p>A Tribute to the Fight for Freedom</p>
-        </div>
-    </header>
-
-    <main>
-        <section id="synopsis">
-            <h2>The Story</h2>
-            <p>In a world where humanity is on the brink of extinction, the last remnants of civilization live behind three concentric walls to protect themselves from giant, man-eating humanoids known as Titans. The story follows Eren Yeager, who vows to exterminate the Titans after one of them brings tragedy to his hometown.</p>
-        </section>
-
-        <section id="characters">
-            <h2>Main Characters</h2>
-            <div class="card-container">
-                <!-- Character Card 1 -->
-                <article class="card">
-                    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/attack-on-titan-Eren-Yeager.jpg" alt="Eren Yeager">
-                    <h3>Eren Yeager</h3>
-                    <p>A young boy who dreams of freedom and joins the Survey Corps to destroy the Titans.</p>
-                </article>
-                <!-- Character Card 2 -->
-                <article class="card">
-                    <img src="https://th.bing.com/th/id/OIP.3dTmA-A9TtIJKXJSSTUrmgHaHa?o=7&cb=12rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Mikasa Ackermann">
-                    <h3>Mikasa Ackermann</h3>
-                    <p>Eren's childhood friend, a gifted soldier who will do anything to protect him.</p>
-                </article>
-                <!-- Character Card 3 -->
-                <article class="card">
-                    <img src="https://i.pinimg.com/originals/2a/3e/5a/2a3e5a4cb1e358a4f9bdb5fdb0c1ec6a.jpg" alt="Armin Arlert">
-                    <h3>Armin Arlert</h3>
-                    <p>Eren's other childhood friend, highly intelligent and a brilliant military strategist.</p>
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Tribute page created with HTML & CSS.<br>This page is created by Pravartak as a mini project for Web Technology</p>
-        <p>This page uses only HTML and CSS for layout and styling.</p>
-    </footer>
+    <div class="form-container">
+        <h2 style="text-align: center;">Login</h2>
+        <form action="main.html" method="get">
+            <input type="text" id="name" name="name" placeholder="Jhonny Sins" required>
+            <br>
+            <input type="email" id="email" name="email" placeholder="jhonny.sins@example.com" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
